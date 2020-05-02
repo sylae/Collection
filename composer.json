@@ -1,13 +1,21 @@
 {
-    "name": "charlottedunois/collection",
+    "name": "sylae/collection",
+    "replace": {
+        "charlottedunois/collection": "self.version"
+    },
     "type": "library",
     "description": "Collection, an utility to conventionally store a key-value pair.",
-    "homepage": "https://github.com/CharlotteDunois/Collection",
+    "homepage": "https://github.com/sylae/Collection",
     "license": "Apache-2.0",
     "authors": [
         {
             "name": "Charlotte Dunois",
             "email": "github@charuru.moe"
+        },
+        {
+            "name": "Keira Dueck",
+            "email": "sylae@calref.net",
+            "role": "Maintainer"
         }
     ],
     "require": {
